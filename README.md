@@ -260,4 +260,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Modern UI/UX across all platforms
 
 ---
+
+<details>
+  <summary>Desktop Application Image</summary>
+<img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/5fe75a2a-c2bb-4828-aaef-098242e51416" />
+<img width="853" height="503" alt="image" src="https://github.com/user-attachments/assets/68810444-a025-41eb-a8e4-e63f06837466" />
+<img width="1001" height="700" alt="image" src="https://github.com/user-attachments/assets/89e1bd59-e0b9-45d4-9fe5-9d2b1baafea6" />
+<img width="899" height="651" alt="image" src="https://github.com/user-attachments/assets/76ba4cd1-3149-4630-b44d-067bc288257a" />
+<img width="598" height="520" alt="image" src="https://github.com/user-attachments/assets/a17597a8-8635-4c8c-89db-a42dcc477412" />
+<img width="1197" height="705" alt="image" src="https://github.com/user-attachments/assets/5f367241-e8c5-42f1-81b9-739044848c83" />
+<img width="1065" height="630" alt="image" src="https://github.com/user-attachments/assets/6046175a-c02f-40ca-be14-f66d52127f21" />
+<img width="1068" height="634" alt="image" src="https://github.com/user-attachments/assets/b8427383-e528-4637-87f1-9d3a169536d7" />
+<img width="1069" height="633" alt="image" src="https://github.com/user-attachments/assets/77b44d80-9966-4a32-88f3-25a6ee83775b" />
+<img width="716" height="523" alt="image" src="https://github.com/user-attachments/assets/3f7eb362-9584-428a-981b-44d46a4d451c" />
+</details>
+
+
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
