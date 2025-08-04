@@ -359,7 +359,7 @@ namespace Seker_kutuphane
             
             var kitapGuncelleForm = new KitapGuncelleForm(kitapId, selectedRow);
             kitapGuncelleForm.ShowDialog();
-            LoadKitaplar(); // Listeyi yenile
+            LoadKitaplar(); // Listeyi yenileme
         }
 
         private async void btnSil_Click(object sender, EventArgs e)
@@ -415,4 +415,5 @@ namespace Seker_kutuphane
             this.Close();
         }
     }
+
 } 
