@@ -259,7 +259,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Advanced loan management system
 - Modern UI/UX across all platforms
 
---- IMAGE
+## IMAGE
 
 <details>
   <summary>Desktop Application Image</summary>
@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </details>
 
 <details>
-  <summary>Website</summary>
+  <summary>Website Image</summary>
     <img width="1914" height="936" alt="image" src="https://github.com/user-attachments/assets/639e4728-da0b-46e6-8873-9326feed8744" />
     <img width="1915" height="940" alt="image" src="https://github.com/user-attachments/assets/7d59c19a-7dd2-4d23-84f5-0164782146db" />
     <img width="1901" height="940" alt="image" src="https://github.com/user-attachments/assets/e58c9179-c18d-42a7-bb8f-4ac107dc1778" />
@@ -289,4 +289,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/f83a59f8-7285-4a32-89c6-d391722858b7" />
 <details>
 
+<details>
+  <summary>Mobile Image</summary>
+   <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/9db9189f-1da1-4279-98bc-723306182cc4" />
+
+</details>
+
+
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+
