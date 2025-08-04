@@ -1,0 +1,250 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.auth-card {
+  width: 100%;
+  background: white;
+  padding: 3em 2em;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.5s ease-out;
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.auth-logo img {
+  height: 60px;
+}
+
+.auth-title {
+  text-align: center;
+  color: #232946;
+  margin-bottom: 0.3em !important;
+  font-weight: 800 !important;
+  font-size: 2.2rem !important;
+  position: relative;
+}
+
+.auth-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #51A646;
+  border-radius: 2px;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #4f5d75;
+  margin-bottom: 2em !important;
+  margin-top: 1.5em !important;
+  font-size: 1.1rem !important;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.form-row {
+  display: flex;
+  gap: 1em;
+}
+
+.form-row .auth-input {
+  flex: 1;
+}
+
+.auth-input {
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5em;
+}
+
+.auth-input .MuiOutlinedInput-root {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.auth-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #388d34;
+}
+
+.auth-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #388d34;
+  border-width: 2px;
+  box-shadow: 0 0 0 4px rgba(56, 141, 52, 0.1);
+}
+
+.auth-input .MuiInputLabel-root {
+  color: #4a4a68;
+  font-weight: 500;
+}
+
+.auth-input .MuiInputLabel-root.Mui-focused {
+  color: #388d34;
+  font-weight: 600;
+}
+
+.auth-button {
+  background-color: #388d34 !important;
+  color: white !important;
+  padding: 1em !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-size: 1.1rem !important;
+  margin-top: 1em !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 12px rgba(56, 141, 52, 0.2) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: all 0.6s ease;
+}
+
+.auth-button:hover {
+  background-color: #51A646 !important;
+  box-shadow: 0 6px 20px rgba(56, 141, 52, 0.3) !important;
+  transform: translateY(-2px);
+}
+
+.auth-button:hover::before {
+  left: 100%;
+}
+
+.auth-button:disabled {
+  background-color: rgba(56, 141, 52, 0.5) !important;
+}
+
+.auth-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.auth-link {
+  color: #388d34;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.auth-link:hover {
+  color: #51A646;
+  text-decoration: underline;
+  transform: translateY(-1px);
+}
+
+.auth-alert {
+  margin-bottom: 1.5em !important;
+  border-radius: 12px !important;
+  font-weight: 500 !important;
+}
+
+/* Stepper için boşluk ayarı */
+.auth-stepper {
+  margin: 2em 0 2.5em 0 !important;
+  padding: 0 1em !important;
+}
+
+.auth-stepper .MuiStepLabel-label {
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+}
+
+.auth-stepper .MuiStepIcon-root {
+  color: #e0e0e0 !important;
+}
+
+.auth-stepper .MuiStepIcon-root.Mui-active {
+  color: #388d34 !important;
+}
+
+.auth-stepper .MuiStepIcon-root.Mui-completed {
+  color: #388d34 !important;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5em 0;
+  color: #4f5d75;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.auth-divider span {
+  padding: 0 1em;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .auth-card {
+    padding: 2em 1.5em;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .auth-title {
+    font-size: 1.8rem !important;
+  }
+
+  .auth-subtitle {
+    font-size: 1rem !important;
+  }
+} 
