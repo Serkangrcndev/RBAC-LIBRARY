@@ -287,11 +287,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img width="1896" height="931" alt="image" src="https://github.com/user-attachments/assets/336746ae-e4d7-439d-85ca-954fafdefde8" />
     <img width="1914" height="942" alt="image" src="https://github.com/user-attachments/assets/ff8f6e09-ed82-4ac0-93cc-63b63846c939" />
     <img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/f83a59f8-7285-4a32-89c6-d391722858b7" />
-    
-## MOBİLE
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/b7689bd3-65d3-45ed-a1fc-1e031484897f" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/831ed56a-29d4-479c-a818-0469bed4260f" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/8a7a1ccd-7c80-49f2-961a-fcca99a401fb" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/5fef35b8-1155-4f90-8c8c-13957082f937" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/308f946d-708f-49b3-8389-5fbec2604cb9" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/ae03aa61-de19-46ef-87fe-315b5f97ad2b" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/0f378a3b-26d3-47dc-afba-8f237a34d302" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/481a63a6-cbc0-4703-a76c-36517f858429" />
+    <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/ccb71d8b-8fe9-49b6-a734-c68668a9f600" />
+
 
 <details>
 
+
+ 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+
 
 
