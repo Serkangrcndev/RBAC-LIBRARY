@@ -1,0 +1,106 @@
+# Library Management System - .gitignore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+build/
+dist/
+out/
+
+# .NET / C# (Desktop Application)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# React / Node.js (Web Application)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
+.eslintcache
+
+# React Native / Expo (Mobile Application)
+.expo/
+web-build/
+*.jsbundle
+/ios/Pods/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.metro-health-check*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+*.bak
+*.backup
+
+# Security
+secrets.json
+config.json
+credentials.json
+*.pem
+*.key
+*.crt
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Backup files
+backup/
+*.backup
+*.bak
+
+# Cache directories
+.cache/
+cache/ 
