@@ -261,24 +261,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 <details>
-  <summary>Website</summary>
-    ![Screenshot_2025-08-04-16-33-58-52_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/b8fe4a83-0cb2-4468-969c-013f894e8a7b)
-    ![Screenshot_2025-08-04-16-34-03-12_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/5cee0205-c89d-4932-ba50-0f91fd64782b)
-    ![Screenshot_2025-08-04-16-34-06-37_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/6a4f70b0-e0ac-4c19-a105-ae7082756fbf)
-    ![Screenshot_2025-08-04-16-34-12-18_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/4813d1d5-c061-4121-9988-9a80e28841fd)
-    ![Screenshot_2025-08-04-16-34-29-80_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/2b5ae27d-05d7-4de6-8425-05c960af2385)
-    ![Screenshot_2025-08-04-16-34-32-09_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/89bfc5cb-18dd-45e6-91ba-b87e4c451551)
-    ![Screenshot_2025-08-04-16-35-30-84_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/fcf153c4-e726-4b54-a070-a9061f6b93a2)
-    ![Screenshot_2025-08-04-16-35-35-19_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/7206519c-f74f-4464-b756-a7553c25c9c2)
-    ![Screenshot_2025-08-04-16-36-02-89_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/15bda25f-92d1-407c-b7a1-2c140661fc98)
-    ![Screenshot_2025-08-04-16-36-15-38](https://github.com/user-attachments/assets/6b3ac1f8-f465-4581-8e4b-39c717085235)
-    ![Screenshot_2025-08-04-16-36-51-86_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/86605023-532c-40cb-9663-f802992f6d16)
-    ![Screenshot_2025-08-04-16-36-55-35_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/af921242-c9cb-4950-a304-85e395376475)
-    ![Screenshot_2025-08-04-16-36-59-15_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/cb937776-9f6f-4ac0-8bd3-c569c0db5398)
-    ![Screenshot_2025-08-04-16-37-19-94_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/b467409c-c3cc-47bc-bee7-54302dafee05)
-  <details>
-
-<details>
   <summary>Desktop Application Image</summary>
 <img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/5fe75a2a-c2bb-4828-aaef-098242e51416" />
 <img width="853" height="503" alt="image" src="https://github.com/user-attachments/assets/68810444-a025-41eb-a8e4-e63f06837466" />
@@ -307,6 +289,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <details>
 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+
 
 
 
