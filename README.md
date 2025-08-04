@@ -297,12 +297,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/481a63a6-cbc0-4703-a76c-36517f858429" />
     <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/ccb71d8b-8fe9-49b6-a734-c68668a9f600" />
 
-
-<details>
-
-
- 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
-
 
 
