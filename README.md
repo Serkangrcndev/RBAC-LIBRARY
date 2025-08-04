@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </details>
 
 <details>
-  <summary>Website Image</summary>
+  <summary>Website & Mobile Image</summary>
     <img width="1914" height="936" alt="image" src="https://github.com/user-attachments/assets/639e4728-da0b-46e6-8873-9326feed8744" />
     <img width="1915" height="940" alt="image" src="https://github.com/user-attachments/assets/7d59c19a-7dd2-4d23-84f5-0164782146db" />
     <img width="1901" height="940" alt="image" src="https://github.com/user-attachments/assets/e58c9179-c18d-42a7-bb8f-4ac107dc1778" />
@@ -287,14 +287,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img width="1896" height="931" alt="image" src="https://github.com/user-attachments/assets/336746ae-e4d7-439d-85ca-954fafdefde8" />
     <img width="1914" height="942" alt="image" src="https://github.com/user-attachments/assets/ff8f6e09-ed82-4ac0-93cc-63b63846c939" />
     <img width="1917" height="943" alt="image" src="https://github.com/user-attachments/assets/f83a59f8-7285-4a32-89c6-d391722858b7" />
-<details>
+    
+## MOBİLE
 
 <details>
-  <summary>Mobile Image</summary>
-   <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/9db9189f-1da1-4279-98bc-723306182cc4" />
-
-</details>
-
 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+
 
