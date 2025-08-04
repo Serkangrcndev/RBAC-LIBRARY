@@ -1,0 +1,88 @@
+.App-header {
+  background: rgba(58, 134, 255, 0.75);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border-bottom: 2.5px solid rgba(67,97,238,0.13);
+  /* Eski gölge ve geçiş animasyonu geri eklendi */
+  box-shadow: 0 8px 32px 0 rgba(44,62,80,0.18), 0 1.5px 8px 0 rgba(67,97,238,0.10);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0;
+  min-height: unset;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.App-logo {
+  color: #6E6F73 !important;
+  font-weight: 900 !important;
+  font-size: 2.1rem !important;
+  letter-spacing: 0.04em !important;
+  text-shadow: none !important;
+  background: none !important;
+  filter: none !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+.header-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.45em 1.5em;
+  border-radius: 12px;
+  border: 2px solid #51a646;
+  background: #fff;
+  color: #52A549;
+  cursor: pointer;
+  transition: all 0.18s cubic-bezier(.4,2,.6,1);
+  box-shadow: 0 2px 8px rgba(56,141,52,0.08);
+  margin: 0;
+  line-height: 1.1;
+  display: inline-block;
+}
+.header-btn--filled {
+  background: #51a646;
+  color: #fff;
+  border: 2px solid #51a646;
+}
+.header-btn--filled:hover, .header-btn--filled:focus {
+  background: #2c6e27;
+  color: #fff;
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(56,141,52,0.18);
+}
+.header-btn--outline {
+  background: #fff;
+  color: #51a646;
+}
+.header-btn--outline:hover, .header-btn--outline:focus {
+  background: #51a646;
+  color: #fff;
+  transform: scale(1.06);
+  box-shadow: 0 4px 16px rgba(56,141,52,0.18);
+}
+.App {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.auth-bg {
+  background: linear-gradient(135deg, rgba(56, 141, 52, 0.1) 0%, rgba(81, 166, 70, 0.2) 100%);
+  background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.auth-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(56, 141, 52, 0.85) 0%, rgba(81, 166, 70, 0.9) 100%);
+  z-index: 1;
+}
+.auth-bg > * {
+  position: relative;
+  z-index: 2;
+}

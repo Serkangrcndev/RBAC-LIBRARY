@@ -1,0 +1,72 @@
+.my-books-container {
+  padding: 2rem 0;
+  min-height: 80vh;
+}
+
+.my-books-title {
+  color: #232946;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.my-books-subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem;
+}
+.my-books-container .MuiCard-root {
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.my-books-container .MuiCard-root:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #51a646;
+}
+.my-books-container .MuiCard-root.overdue {
+  border-color: #f44336;
+  background-color: rgba(244, 67, 54, 0.02);
+}
+@media (max-width: 768px) {
+  .my-books-container {
+    padding: 1rem 0;
+  }
+  
+  .my-books-title {
+    font-size: 2rem;
+  }
+  
+  .my-books-subtitle {
+    font-size: 1rem;
+  }
+  
+  .my-books-container .MuiGrid-root {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-books-container .MuiCard-root {
+    margin: 0 0.5rem;
+  }
+} 

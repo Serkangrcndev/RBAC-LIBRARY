@@ -1,0 +1,61 @@
+.App-footer {
+  background: #51A646 !important;
+  backdrop-filter: blur(8px) saturate(120%) !important;
+  -webkit-backdrop-filter: blur(8px) saturate(120%) !important;
+  border-top: 1.5px solid #e0e6f7;
+  box-shadow: 0 -2px 16px 0 rgba(44,62,80,0.07);
+  margin-top: 2em;
+  padding: 1em 0 0.5em 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.02rem;
+  letter-spacing: 0.03em;
+  position: relative;
+  width: 100%;
+  transition: background 0.3s, box-shadow 0.3s;
+  border-radius: 18px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1em;
+  margin-top: 0.2em;
+}
+.footer-copyright {
+  font-size: 1em;
+  font-weight: 600;
+  color: #232946;
+  opacity: 0.92;
+}
+.footer-user-rights {
+  font-size: 0.93em;
+  color: #3a86ff;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 600px) {
+  .App-footer {
+    font-size: 0.95rem;
+    padding: 0.7em 0 0.3em 0;
+  }
+  .footer-content {
+    gap: 0.15em;
+  }
+  .footer-legal {
+    font-size: 0.93em;
+    gap: 0.05em;
+  }
+  .footer-copyright, .footer-user-rights {
+    text-align: center;
+    display: block;
+  }
+} 

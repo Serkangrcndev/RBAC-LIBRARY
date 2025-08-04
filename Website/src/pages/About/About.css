@@ -1,0 +1,366 @@
+.about-page {
+  padding-bottom: 4rem;
+}
+.about-hero {
+  background: linear-gradient(135deg, #51a646 0%, #51a646 100%);
+  color: white;
+  padding: 6rem 0;
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.about-hero-title {
+  font-weight: 800 !important;
+  font-size: 3.5rem !important;
+  margin-bottom: 1rem !important;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-hero-subtitle {
+  font-weight: 400 !important;
+  position: relative;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.about-section {
+  margin-bottom: 5rem;
+}
+
+.section-title {
+  font-weight: 700 !important;
+  color: #232946;
+  margin-bottom: 1.5rem !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-divider {
+  margin: 1.5rem auto !important;
+  width: 80px !important;
+  border-top: 4px solid #51a646 !important;
+  opacity: 1 !important;
+}
+
+.section-content {
+  color: #4a4a68;
+  line-height: 1.8 !important;
+}
+.about-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #51a646;
+  border-radius: 3px 0 0 3px;
+}
+
+.vision-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background-color: #51a646;
+  border-radius: 3px 0 0 3px;
+}
+
+.stats-section {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+  margin: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, #51a646, #51a646);
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  color: #51a646 !important;
+  font-weight: 800 !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.stat-description {
+  color: #4a4a68;
+  font-weight: 500 !important;
+}
+.history-content {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  margin-top: 2rem;
+  position: relative;
+}
+
+.history-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0C0 55.2285 44.7715 100 100 100V0H0Z' fill='%2351A646' fill-opacity='0.05'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.team-grid-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.team-row-single {
+  justify-content: center;
+}
+
+.team-row-double {
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.team-row-double .team-card {
+  flex: 0 1 350px;
+  max-width: 350px;
+}
+
+.team-card {
+  border-radius: 20px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  border: 1px solid rgba(81, 166, 70, 0.1);
+  position: relative;
+}
+
+.team-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #51a646, #4CAF50);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover::before {
+  transform: scaleX(1);
+}
+
+.team-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(81, 166, 70, 0.15) !important;
+}
+
+.team-card .MuiCardContent-root {
+  padding: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.team-avatar {
+  width: 140px !important;
+  height: 140px !important;
+  margin: 0 auto 1.5rem !important;
+  border: 5px solid rgba(81, 166, 70, 0.15) !important;
+  box-shadow: 0 8px 25px rgba(81, 166, 70, 0.2) !important;
+  transition: all 0.3s ease;
+  object-fit: cover;
+  border-radius: 50% !important;
+}
+
+.team-card:hover .team-avatar {
+  border-color: rgba(81, 166, 70, 0.3) !important;
+  box-shadow: 0 12px 35px rgba(81, 166, 70, 0.3) !important;
+  transform: scale(1.05);
+}
+
+.team-name {
+  text-align: center;
+  font-weight: 800 !important;
+  margin-bottom: 0.5rem !important;
+  color: #232946;
+  font-size: 1.4rem !important;
+  letter-spacing: -0.5px;
+}
+
+.team-role {
+  text-align: center;
+  color: #51a646;
+  font-weight: 600 !important;
+  margin-bottom: 1.2rem !important;
+  font-size: 1rem !important;
+  background: linear-gradient(45deg, #51a646, #4CAF50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  background-color: rgba(81, 166, 70, 0.1);
+  display: inline-block;
+}
+
+.team-bio {
+  text-align: center;
+  color: #4a4a68;
+  line-height: 1.7 !important;
+  font-size: 0.95rem !important;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(81, 166, 70, 0.1);
+}
+@media (max-width: 960px) {
+  .about-hero {
+    padding: 4rem 0;
+  }
+  
+  .about-hero-title {
+    font-size: 2.5rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .stat-number {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-hero {
+    padding: 3rem 0;
+  }
+  
+  .about-hero-title {
+    font-size: 2rem !important;
+  }
+  
+  .about-section {
+    margin-bottom: 3rem;
+  }
+  
+  .history-content {
+    padding: 1.5rem;
+  }
+  
+  .team-grid-container {
+    gap: 2rem;
+  }
+  
+  .team-row-double {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  
+  .team-row-double .team-card {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .team-avatar {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  
+  .team-card .MuiCardContent-root {
+    padding: 1.5rem !important;
+  }
+  
+  .team-name {
+    font-size: 1.2rem !important;
+  }
+  
+  .team-role {
+    font-size: 0.9rem !important;
+    padding: 0.2rem 0.8rem;
+  }
+  
+  .team-bio {
+    font-size: 0.9rem !important;
+  }
+} 
