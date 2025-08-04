@@ -1,4 +1,4 @@
-<img width="621" height="218" alt="image" src="https://github.com/user-attachments/assets/40e85cd7-4644-4dd1-aec3-00d34a0db922" /># Library Management System (Kütüphane Yönetim Sistemi)
+# Library Management System (Kütüphane Yönetim Sistemi)
 
 [![React](https://img.shields.io/badge/React-19.1.0-blue.svg)](https://reactjs.org/)
 [![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.8.2-purple.svg)](https://redux-toolkit.js.org/)
@@ -308,4 +308,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <details>
 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+
 
