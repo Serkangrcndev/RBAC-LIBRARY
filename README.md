@@ -226,6 +226,33 @@ dotnet test
 
 ---
 
+---
+
+## 🔐 Role-Based Access Control (RBAC) Nedir?
+
+RBAC, kullanıcıların sistemde hangi işlemleri yapabileceğini belirlemek için rollere dayalı bir yetkilendirme modelidir. Bu modelde her kullanıcıya bir veya birden fazla rol atanır ve bu roller belirli yetkilere sahiptir.
+
+Bu sistem sayesinde:
+- Yetki yönetimi merkezi olarak kontrol edilebilir.
+- Güvenlik artırılır, yetkisiz erişim engellenir.
+- Kurumsal yapılar için ölçeklenebilir bir mimari sunar.
+
+---
+
+## 🧱 Mimari Yapı
+
+RBAC-LIBRARY projesi 3 temel bileşene dayanır:
+1. **Users (Kullanıcılar)**: Sisteme giriş yapan gerçek kişiler.
+2. **Roles (Roller)**: Kullanıcılara atanan, yetki setlerini temsil eden gruplar.
+3. **Permissions (Yetkiler)**: Belirli bir kaynağa erişim hakkı. Rollere atanır.
+
+```text
+User → Role → Permissions → Actions
+
+
+
+
+
 ## 📈 Monitoring & Analytics
 
 - **Error Tracking**: Comprehensive error logging
