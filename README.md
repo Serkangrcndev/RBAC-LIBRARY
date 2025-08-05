@@ -287,6 +287,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Modern UI/UX across all platforms
 
 Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
+```
 
 ## IMAGE
 
@@ -325,3 +326,4 @@ Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaş�
     <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/0f378a3b-26d3-47dc-afba-8f237a34d302" />
     <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/481a63a6-cbc0-4703-a76c-36517f858429" />
     <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/ccb71d8b-8fe9-49b6-a734-c68668a9f600" />
+
