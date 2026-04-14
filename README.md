@@ -7,144 +7,172 @@
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.79.5-blue.svg)](https://reactnative.dev/)
 
-## 📚 Project Overview (Proje Genel Bakış)
+# 📚 Kütüphane Yönetim Sistemi (Library Management System)
 
-This is a comprehensive **Library Management System** built with modern technologies across three platforms:
-
-Bu, üç farklı platformda modern teknolojilerle geliştirilmiş kapsamlı bir **Kütüphane Yönetim Sistemi**dir:
-
-### 🖥️ Desktop Application (Masaüstü Uygulaması)
-- **Technology**: .NET 8 Windows Forms
-- **Database**: SQL Server with Entity Framework
-- **Features**: Complete library management with RBAC system
-
-### 🌐 Web Application (Web Uygulaması)
-- **Technology**: React 19 + Redux Toolkit + RTK Query
-- **UI Framework**: Material-UI (MUI)
-- **State Management**: Advanced Redux setup with RTK Query for API calls
-- **Features**: Modern web interface with role-based access control
-
-### 📱 Mobile Application (Mobil Uygulama)
-- **Technology**: React Native + Expo
-- **Navigation**: React Navigation with bottom tabs
-- **Features**: Cross-platform mobile experience
+Bu proje, üç farklı platformda modern teknolojiler kullanılarak geliştirilmiş kapsamlı bir **Kütüphane Yönetim Sistemi**dir.
 
 ---
 
-## 🚀 Key Features (Temel Özellikler)
+## 🖥️ Platformlar
 
-### 🔐 RBAC (Role-Based Access Control) System
-- **Admin**: Full system access and user management
-- **Librarian/Staff**: Book management and loan operations
-- **Member**: Basic book browsing and personal loan history
-
-### 📖 Book Management
-- Add, edit, delete books
-- Stock management
-- Book search and filtering
-- Category management
-
-### 🔄 Loan System
-- 30-day loan period
-- Automatic overdue detection
-- Penalty system for late returns
-- Stock tracking
-
-### 👥 User Management
-- User registration and authentication
-- Role assignment
-- Profile management
-- Session management
-
-### 📊 Statistics & Reports
-- Loan statistics
-- User activity reports
-- Book popularity metrics
-- Overdue reports
+### 🖥️ Masaüstü Uygulaması
+- **Teknoloji**: .NET 8 Windows Forms  
+- **Veritabanı**: SQL Server + Entity Framework  
+- **Özellikler**: Rol tabanlı yetkilendirme (RBAC) ile tam kapsamlı yönetim  
 
 ---
 
-## 🛠️ Technology Stack (Teknoloji Yığını)
-
-### Frontend Technologies
-- **React 19**: Latest React with concurrent features
-- **Redux Toolkit**: Modern Redux with simplified boilerplate
-- **RTK Query**: Powerful data fetching and caching
-- **Material-UI**: Professional UI components
-- **React Router**: Client-side routing
-
-### Backend Technologies
-- **.NET 8**: Latest .NET framework
-- **Windows Forms**: Desktop application framework
-- **SQL Server**: Relational database
-- **Entity Framework**: ORM for database operations
-
-### Mobile Technologies
-- **React Native**: Cross-platform mobile development
-- **Expo**: Development platform and tools
-- **React Navigation**: Mobile navigation solution
-
-### Security & Authentication
-- **JWT Tokens**: Secure authentication
-- **Session Management**: Persistent user sessions
-- **Password Hashing**: BCrypt encryption
-- **Role-based Authorization**: Granular access control
+### 🌐 Web Uygulaması
+- **Teknoloji**: React 19 + Redux Toolkit + RTK Query  
+- **UI Framework**: Material-UI (MUI)  
+- **Durum Yönetimi**: Redux + RTK Query  
+- **Özellikler**: Modern arayüz, gerçek zamanlı veri yönetimi, RBAC sistemi  
 
 ---
 
-## 📁 Project Structure (Proje Yapısı)
+### 📱 Mobil Uygulama
+- **Teknoloji**: React Native + Expo  
+- **Navigasyon**: React Navigation (Bottom Tabs)  
+- **Özellikler**: Cross-platform mobil deneyim, performans odaklı yapı  
+
+---
+
+## 🚀 Temel Özellikler
+
+### 🔐 Rol Tabanlı Yetkilendirme (RBAC)
+- **Admin**: Tüm sistem erişimi ve kullanıcı yönetimi  
+- **Kütüphaneci (Staff)**: Kitap ve ödünç işlemleri  
+- **Üye (Member)**: Kitap görüntüleme ve ödünç geçmişi  
+
+---
+
+### 📖 Kitap Yönetimi
+- Kitap ekleme, düzenleme, silme  
+- Stok takibi  
+- Arama ve filtreleme  
+- Kategori yönetimi  
+
+---
+
+### 🔄 Ödünç Alma Sistemi
+- 30 gün ödünç süresi  
+- Gecikme otomatik tespiti  
+- Ceza sistemi  
+- Stok kontrolü  
+
+---
+
+### 👥 Kullanıcı Yönetimi
+- Kayıt ve giriş işlemleri  
+- Rol atama  
+- Profil yönetimi  
+- Oturum yönetimi  
+
+---
+
+### 📊 İstatistikler ve Raporlar
+- Ödünç alma istatistikleri  
+- Kullanıcı aktiviteleri  
+- Popüler kitaplar  
+- Gecikme raporları  
+
+---
+
+## 🛠️ Teknoloji Yığını
+
+### Frontend
+- React 19  
+- Redux Toolkit  
+- RTK Query  
+- Material-UI  
+- React Router  
+
+---
+
+### Backend
+- .NET 8  
+- Windows Forms  
+- SQL Server  
+- Entity Framework  
+
+---
+
+### Mobil
+- React Native  
+- Expo  
+- React Navigation  
+
+---
+
+### Güvenlik
+- JWT Authentication  
+- BCrypt ile şifreleme  
+- Rol bazlı yetkilendirme  
+- Session yönetimi  
+- SQL Injection koruması  
+
+---
+
+## 📁 Proje Yapısı
 
 ```
 📦 Library Management System
 ├── 🖥️ Desktop Application/
 │   └── Seker_kutuphane/
-│       ├── Forms/           # Windows Forms
-│       ├── Models/          # Data models
-│       ├── Services/        # Business logic
+│       ├── Forms/
+│       ├── Models/
+│       ├── Services/
 │       └── DatabaseHelper.cs
 ├── 🌐 Website/
 │   ├── src/
-│   │   ├── components/      # Reusable components
-│   │   ├── pages/          # Page components
-│   │   ├── store/          # Redux store
-│   │   │   ├── api/        # RTK Query APIs
-│   │   │   └── slices/     # Redux slices
-│   │   ├── utils/          # Utility functions
-│   │   └── styles/         # CSS styles
-│   └── public/             # Static assets
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── store/
+│   │   │   ├── api/
+│   │   │   └── slices/
+│   │   ├── utils/
+│   │   └── styles/
+│   └── public/
 └── 📱 Mobile Application/
     └── kutuphane-mobile/
-        ├── app/            # Screen components
-        ├── components/     # Reusable components
-        ├── store/          # Redux store
-        ├── services/       # API services
-        └── constants/      # App constants
+        ├── app/
+        ├── components/
+        ├── store/
+        ├── services/
+        └── constants/
 ```
 
 ---
-### Prerequisites
-- Node.js 18+ 
-- .NET 8 SDK
-- SQL Server
-- Expo CLI (for mobile development)
 
-### Installation (Kurulum)
+## ⚙️ Kurulum
 
-#### 1. Web Application
+### Gereksinimler
+- Node.js 18+  
+- .NET 8 SDK  
+- SQL Server  
+- Expo CLI  
+
+---
+
+### 1. Web Uygulaması
 ```bash
 cd Website
 npm install
 npm start
 ```
 
-#### 2. Desktop Application
+---
+
+### 2. Masaüstü Uygulaması
 ```bash
 cd "Desktop Application/Seker_kutuphane"
 dotnet restore
 dotnet run
 ```
 
-#### 3. Mobile Application
+---
+
+### 3. Mobil Uygulama
 ```bash
 cd "Mobile Application/kutuphane-mobile"
 npm install
@@ -153,141 +181,129 @@ npx expo start
 
 ---
 
-## 🔧 Configuration
+## 🔧 Yapılandırma
 
-### Database Connection
-Update the connection string in `DatabaseHelper.cs` for desktop application.
+### Veritabanı
+`DatabaseHelper.cs` dosyasındaki connection string’i güncelleyin.
 
-### API Configuration
-Set your API URL in the web application's `apiSlice.js`.
+### API Ayarları
+Web projesinde `apiSlice.js` dosyasına API URL ekleyin.
 
-### Environment Variables
-Create `.env` files for sensitive configuration data.
-
----
-
-## 📱 Features by Platform
-
-### Desktop Application
-- ✅ Complete CRUD operations
-- ✅ Advanced search and filtering
-- ✅ Report generation
-- ✅ Bulk operations
-- ✅ Offline capability
-
-### Web Application
-- ✅ Responsive design (Responsive)
-- ✅ Real-time updates
-- ✅ Advanced state management
-- ✅ Progressive Web App (PWA)
-- ✅ Modern UI/UX
-
-### Mobile Application
-- ✅ Cross-platform compatibility
-- ✅ Offline-first approach
-- ✅ Push notifications
-- ✅ Touch-optimized interface
-- ✅ Native performance
+### Ortam Değişkenleri
+Hassas bilgiler için `.env` dosyaları oluşturun.
 
 ---
 
-## 🔐 Security Features
+## 📱 Platform Bazlı Özellikler
 
-- **Authentication**: JWT-based authentication
-- **Authorization**: Role-based access control (RBAC)
-- **Data Encryption**: Password hashing with SHA-256
-- **Session Management**: Secure session handling
-- **Input Validation**: Comprehensive input sanitization
-- **SQL Injection Protection**: Parameterized queries
-
----
-
-## 📊 Performance Optimizations
-
-- **RTK Query Caching**: Intelligent data caching
-- **Lazy Loading**: Component and route lazy loading
-- **Code Splitting**: Bundle optimization
-- **Image Optimization**: Compressed assets
-- **Database Indexing**: Optimized queries
+### 🖥️ Masaüstü
+- CRUD işlemleri  
+- Gelişmiş arama  
+- Raporlama  
+- Toplu işlemler  
+- Offline çalışma  
 
 ---
 
-## 🧪 Testing
+### 🌐 Web
+- Responsive tasarım  
+- Gerçek zamanlı güncelleme  
+- PWA desteği  
+- Modern UI/UX  
 
+---
+
+### 📱 Mobil
+- Cross-platform  
+- Offline-first yaklaşım  
+- Push bildirimler  
+- Dokunmatik optimizasyon  
+
+---
+
+## 🔐 RBAC Nedir?
+
+RBAC (Role-Based Access Control), kullanıcıların sistemdeki yetkilerini rollere göre belirleyen bir yetkilendirme modelidir.
+
+### Yapı:
+```
+Kullanıcı → Rol → Yetkiler → İşlemler
+```
+
+### Avantajları:
+- Merkezi yetki yönetimi  
+- Güvenli erişim kontrolü  
+- Ölçeklenebilir mimari  
+
+---
+
+## 📊 Performans Optimizasyonları
+- RTK Query cache sistemi  
+- Lazy loading  
+- Code splitting  
+- Veritabanı indeksleme  
+- Görsel optimizasyonu  
+
+---
+
+## 🧪 Test
+
+### Web
 ```bash
-# Web Application Tests
 cd Website
 npm test
+```
 
-# Desktop Application Tests
+### Masaüstü
+```bash
 cd "Desktop Application/Seker_kutuphane"
 dotnet test
 ```
 
 ---
 
----
-
-## 🔐 Role-Based Access Control (RBAC) Nedir?
-
-RBAC, kullanıcıların sistemde hangi işlemleri yapabileceğini belirlemek için rollere dayalı bir yetkilendirme modelidir. Bu modelde her kullanıcıya bir veya birden fazla rol atanır ve bu roller belirli yetkilere sahiptir.
-
-Bu sistem sayesinde:
-- Yetki yönetimi merkezi olarak kontrol edilebilir.
-- Güvenlik artırılır, yetkisiz erişim engellenir.
-- Kurumsal yapılar için ölçeklenebilir bir mimari sunar.
+## 📈 İzleme ve Analiz
+- Hata loglama  
+- Performans takibi  
+- Kullanıcı analizi  
+- Sistem sağlık kontrolleri  
 
 ---
 
-## 🧱 Mimari Yapı
+## 🤝 Katkıda Bulunma
 
-RBAC-LIBRARY projesi 3 temel bileşene dayanır:
-1. **Users (Kullanıcılar)**: Sisteme giriş yapan gerçek kişiler.
-2. **Roles (Roller)**: Kullanıcılara atanan, yetki setlerini temsil eden gruplar.
-3. **Permissions (Yetkiler)**: Belirli bir kaynağa erişim hakkı. Rollere atanır.
-
-```text
-User → Role → Permissions → Actions
-
-
-
-
-
-## 📈 Monitoring & Analytics
-
-- **Error Tracking**: Comprehensive error logging
-- **Performance Monitoring**: Application performance metrics
-- **User Analytics**: Usage statistics and patterns
-- **System Health**: Database and API health checks
+1. Repo’yu forkla  
+2. Yeni branch oluştur  
+3. Değişiklikleri yap  
+4. Test ekle (varsa)  
+5. Pull request gönder  
 
 ---
 
-## 🤝 Contributing
+## 📄 Lisans
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+Bu proje **MIT Lisansı** ile lisanslanmıştır.
 
 ---
 
-## 📄 License (Lisans)
+## 🔄 Sürüm Geçmişi
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### v1.0.0
+- İlk sürüm  
+- 3 platform desteği  
+- RBAC sistemi  
+- Gelişmiş ödünç yönetimi  
+- Modern arayüz  
 
 ---
 
-## 🔄 Version History (Sürüm Geçmişi)
+## 👨‍💻 Geliştiriciler
 
-### v1.0.0 (Current)
-- Initial release with all three platforms
-- Complete RBAC implementation
-- Advanced loan management system
-- Modern UI/UX across all platforms
-
-Developed By Serkan Gürcan , Burak Saka , Halil Malatyalı , Semiha Bahçebaşı , Umut Aydın.
-```
+- Serkan Gürcan  
+- Burak Saka  
+- Halil Malatyalı  
+- Semiha Bahçebaşı  
+- Umut Aydın  
 
 ## IMAGE
 
